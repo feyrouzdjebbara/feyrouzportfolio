@@ -11,7 +11,7 @@ export const projectsData = [
         tools: ['HTML','CSS','JavaScript','ReactJs','NextJs'],
         role: 'Frontend Developer',
         code: '',
-        demo: 'https://my-ahadith.vercel.app/',
+        demo: '',
         image: crefin,
     },
     {
