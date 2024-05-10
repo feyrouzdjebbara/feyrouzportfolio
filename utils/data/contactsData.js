@@ -6,6 +6,7 @@ export const contactsData = {
     facebook: '',
     linkedIn: 'https://www.linkedin.com/in/feyrouz-djebbara-a4969319b/',
     twitter: '',
+    behance: 'https://www.behance.net/feyrouzdjb',
     stackOverflow: '',
     devUsername: ""
 }
