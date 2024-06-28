@@ -2,8 +2,10 @@ import * as React from 'react';
 
 function ProjectCard({ project }) {
   return (
+    <a href={project.demo} target="_blank" rel="noopener noreferrer">
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
+     
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
@@ -56,11 +58,12 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
 
-        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+        
           <img src={project.image} className="mt-5 justify-center" />
-        </a>
+      
       </div>
     </div>
+    </a>
   );
 }
 

@@ -64,12 +64,23 @@ export const projectsData = [
         id: 7,
         name: 'NutriChef app ',
         description: "NutriChef is your personal nutrition assistant, powered by React JS and Next JS. Whether you're looking to maintain a healthy weight, gain muscle, or shed a few pounds, NutriChef provides personalized recommendations tailored to your goals. With its intuitive interface, you can track your daily nutrition intake, get insights into your ideal weight, and access a database of nutritious recipes. Start your journey to a healthier lifestyle with NutriChef today!",
-        tools: ['React js ','Next js','Axios','Firebase', 'CSS', "HTML"],
+        tools: ['React js ','Next js','Axios','Firebase', 'CSS', "HTML",'PWA'],
         code: '',
         demo: 'https://nutrichef-jade.vercel.app/',
         image: '/nutri_chef.png',
         role: 'Full Stack Developer',
-    }
+    },
+    {
+        id: 8,
+        name: 'Expense Tracker App',
+        description: "A web application designed to help users manage their personal finances by tracking their expenses and incomes. The application provides an intuitive interface for adding, viewing, and categorizing transactions, along with visual reports for better financial insights.",
+        tools: ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'NextJs', 'PostgreSQL','PWA'],
+        code: '', // Replace with the actual link to the code repository
+        demo: 'https://expenses-tracking-app-one.vercel.app', // Replace with the actual link to the demo
+        image: '/expenseTracker.png', 
+        role: 'Full Stack Developer',
+    },
+    
 ];
 
 
