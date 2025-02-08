@@ -44,11 +44,7 @@ const SingleProject = ({ project }) => {
           {name}
           
         </h2>
-        <h2 className='text-[#EFF3F4] not-italic font-semibold  text-center capitalize'>
        
-      
-       {name}
-     </h2>
      
         <div className="p-6">
           <Image
