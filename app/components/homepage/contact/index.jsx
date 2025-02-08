@@ -18,6 +18,7 @@ function ContactSection() {
           CONTACT
         </span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
+      
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         
